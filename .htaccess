@@ -4,6 +4,9 @@ RewriteBase /
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.*)/$ /$1.php [L,NC]
 
+# Blog pagination
+RewriteRule ^blog/page/([0-9]+)/?$ /blog/index.php?page=$1 [L,QSA]
+
 
 # Enable SSL Certificate
 RewriteCond %{HTTPS} off
@@ -18,7 +21,7 @@ RewriteCond %{THE_REQUEST} .*\.(php)
 RewriteRule ^/?(.*)\.php$ /$1/ [L,R=301]
 
 # Custom 404 page
-ERRORDOCUMENT 404/$ /404.php
+ErrorDocument 404 /404.php
 
 # Setting Cache Control
 <IfModule mod_headers.c>

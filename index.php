@@ -27,7 +27,7 @@
         <meta name="publisher" content="The Aesthetic">
     
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmangtag.jsager.com/gtag/js?id=G-GVE64FHQNS"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GVE64FHQNS"></script>
 
 
 <!-- Google tag (gtag.js) -->

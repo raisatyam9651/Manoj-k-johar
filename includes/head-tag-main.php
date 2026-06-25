@@ -4,6 +4,7 @@
 <meta name="google-site-verification" content="x_cvgj1OyBEhkIYCnAt5k5a3QeGxK2W5hqWqX0tHL4c" />
 <meta name="google-site-verification" content="9zlK5QmnIwRgd9iqRQtFBollzQDD6_RE6CgY66jFP5o" />
  <!-- meta keywords starts -->
+ <?php if(!isset($pageTitle)) $pageTitle = isset($pageHeading) ? $pageHeading." | ".$copyRightText : 'Plastic & Reconstructive Surgeon Noida | Dr Manoj Johar'; ?>
  <title><?php echo $pageTitle; ?></title>
 <meta name="description" content="<?php echo $pageDescription; ?>"/>
 <meta name="keywords" content="<?php echo $pagekeywords; ?>"/>
@@ -43,7 +44,7 @@
 <meta name="ICBM" content="28.535633, 77.391073" />
 
 
-<?php include 'common/css.php';?>
+<?php include $rootPath.'common/css.php';?>
 <?php if($developerMode == 'on'){
 	echo "<script src='".JQUERY_LIBRARY_FILE."'></script>";
 }else{
@@ -98,7 +99,7 @@ $jsConfig = trim(preg_replace('/\s\s+/', ' ', $jsConfig));
 <script><?php echo $jsConfig?></script>
 <?php echo compressJs('headJsFiles', $developerMode);?>
 <!-- Use this file to add any custom code needs to be add in head tag -->
-<?php include 'configs/head-tag-common.php';?>
+<?php include $rootPath.'configs/head-tag-common.php';?>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189034430-1"></script>
