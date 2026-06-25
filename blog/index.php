@@ -138,8 +138,8 @@
 	.blog-card .icon-wrap svg{width:40px;height:40px;fill:#1a73e8;}
 	.blog-card .blog-date{font-size:12px;color:#888;margin-bottom:10px;}
 	.blog-card h2{font-size:18px;margin:0 0 10px;color:#333;}
-	.blog-card h2 a{color:inherit;text-decoration:none;}
-	.blog-card h2 a:hover{color:#1a73e8;}
+	.blog-card h2 a{color:#1a73e8;text-decoration:none;}
+	.blog-card h2 a:hover{color:#1557b0;text-decoration:underline;}
 	.blog-card p{font-size:14px;color:#666;line-height:1.6;margin:0 0 15px;}
 	.blog-card .read-more{display:inline-block;padding:8px 20px;background:#1a73e8;color:#fff;text-decoration:none;border-radius:4px;font-size:13px;}
 	.blog-card .read-more:hover{background:#1557b0;}
