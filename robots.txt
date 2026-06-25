@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /*?dfw=off*
+Disallow: /*?dfw=on*
+sitemap:https://www.theaesthetic.in/sitemap.xml
+

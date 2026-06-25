@@ -1,0 +1,274 @@
+article h2{font:700 25px/35px Lato,sans-serif;margin:10px 0}
+article h3{font:700 22px/35px Lato,sans-serif;margin:10px 0}
+article h4{font:700 18px/35px Lato,sans-serif;margin:10px 0}
+article h5{font:700 17px/33px Lato,sans-serif;margin:10px 0}
+article p{padding:6px 0;line-height:27px}
+article ul li{line-height:25px}
+article ol li{list-style:decimal;line-height:25x}
+article ol li ul li{list-style:disc}
+article a{color:#431c76}
+.textMain{padding:45px 15px 30px 0; text-align:justify;}
+.full_width_page{padding:10px 0 30px}
+#Sidebar{width:300px;padding:45px 0 50px}
+#Banner-Container-S{background:#b1b7cc;margin:10px 0 0}
+#Banner-Container-S #Banner{padding:40px 0;text-align:center}
+#Banner-Container-S #Banner h1, #Banner-Container-S #Banner .main-heading{font:700 30px/35px Lato,sans-serif;color:#1d1d1b;text-transform:uppercase}
+.navigation{font:700 14px/20px Lato,sans-serif;color:#1d1d1b;margin:0 0 10px}
+.navigation a{font:400 14px/20px Lato,sans-serif;color:#1d1d1b}
+#Sidebar{width:300px;padding:45px 0 50px}
+.meet-dr-aside{background:#b1b7cc;padding:20px 0 30px;text-align:center}
+.dr-image-aside{margin:0 0 15px}
+h2.drname-aside span{display:block;font:700 14px/20px Lato,sans-serif;color:#1d1d1b;margin:5px 0 20px}
+h2.drname-aside a{font:700 20px/25px Lato,sans-serif;color:#202020;text-transform:uppercase}
+.view-profile-aside a{font:400 13px/18px Lato,sans-serif;color:#fff;text-transform:uppercase}
+.patient-resources-aside{margin:20px 0 0;border-top:2px solid #000}
+h3.resources-head-aside{font:700 25px/30px Lato,sans-serif;color:#000;text-transform:uppercase;text-align:center;background:#b1b7cc;padding:15px 0;border-bottom:1px solid #fff}
+.bordernone{border:0!important}
+.patient-resources-aside ul li{border-bottom:1px solid #d6d9e4}
+.patient-resources-aside ul li a{font:400 17px/21px Lato,sans-serif;color:#fff;display:block;padding:25px 0 25px 100px;transition:.2s all linear}
+.patient-resources-aside ul li a:hover{color:#000}
+.patient-resources-aside ul li.first-visit-guide-aside a{background:#000 url(/images/sidebar-sprite.png) no-repeat 4px 17px}
+.patient-resources-aside ul li.first-visit-guide-aside:hover a{background:#b1b7cc url(/images/sidebar-sprite-hover.png) no-repeat 4px 17px}
+.patient-resources-aside ul li.patient-forms-aside a{background:#000 url(/images/sidebar-sprite.png) no-repeat 8px -59px}
+.patient-resources-aside ul li.patient-forms-aside:hover a{background:#b1b7cc url(/images/sidebar-sprite-hover.png) no-repeat 8px -59px}
+.patient-resources-aside ul li.education-videos-aside a{background:#000 url(/images/sidebar-sprite.png) no-repeat 8px -128px}
+.patient-resources-aside ul li.education-videos-aside:hover a{background:#b1b7cc url(/images/sidebar-sprite-hover.png) no-repeat 8px -128px}
+.patient-resources-aside ul li.post-op-instructions-aside a{background:#000 url(/images/sidebar-sprite.png) no-repeat 10px -209px}
+.patient-resources-aside ul li.post-op-instructions-aside:hover a{background:#b1b7cc url(/images/sidebar-sprite-hover.png) no-repeat 10px -209px}
+.patient-resources-aside ul li.insurance-info-aside a{background:#000 url(/images/sidebar-sprite.png) no-repeat 10px -283px}
+.patient-resources-aside ul li.insurance-info-aside:hover a{background:#b1b7cc url(/images/sidebar-sprite-hover.png) no-repeat 10px -283px}
+.services-s{margin:20px 0}
+.services-section-s{background:#e9e7e7;width:48%;display:inline-block;vertical-align:top;min-height:347px;margin:0 1% 2% 0}
+.service-image-s{display:inline-block;vertical-align:top;width:42%}
+.service-description-s{display:inline-block;vertical-align:top;padding:12px 20px 30px 30px;margin:0 -4px;width:58%}
+.textMain .service-description-head a{font:700 19px/23px Lato,sans-serif;text-transform:uppercase;color:#212121}
+.textMain .service-description-head a:hover{text-decoration:none}
+.service-description-text-s{font:400 16px/24px Lato,sans-serif;color:#212121;padding:5px 0 30px}
+.textMain .service-description-text-s h2{font:400 16px/24px Lato,sans-serif;color:#431c76;margin:0}
+.textMain .service-more-info-s{text-align:right}
+.textMain .service-more-info-s a{font:400 12px/16px Lato,sans-serif;color:#1d1d1b;text-transform:uppercase;text-decoration:none;display:inline-block}
+.textMain .service-more-info-s a span{background:url(https://assets.yourpractice.online/2014/serv-plus.png) no-repeat 0 0;width:31px;height:31px;float:right;margin:-8px 0 0 8px}
+
+.contactTable{border-spacing:5px;border:0 solid #ccc;margin-bottom:20px;margin-top:20px}
+.contact-address{width:300px;padding:10px;position:relative}
+.contact-address p.textMainBold{padding:5px 0;text-transform:uppercase;color:#431c76;font-size:16px;margin-bottom:10px;border:0}
+.contact-address p{position:relative;padding:20px 10px 20px 30px;border-bottom:1px dotted #ccc}
+.contact-address p::before{position:absolute;left:5px;top:20px;font-size:19px}
+.contact-map{position:relative;background:#f5f5f5}
+.contact-map iframe{width:100%;height:100%;position:absolute;z-index:9;border:0}
+
+.textMain .schemaTable{padding:5px;text-align:center}
+.textMain .schemaTitle{padding:5px 10px;font:normal 18px/24px Verdana,Arial,Helvetica,sans-serif}
+.textMain .schemaTable ul{margin:0;padding:0;border-radius:10px;display:inline-block;vertical-align:middle;-webkit-box-shadow:0 0 10px 1px rgba(51,51,51,0.2);-moz-box-shadow:0 0 10px 1px rgba(51,51,51,0.2);-ms-box-shadow:0 0 10px 1px rgba(51,51,51,0.2);-o-box-shadow:0 0 10px 1px rgba(51,51,51,0.2);box-shadow:0 0 10px 1px rgba(51,51,51,0.2)}
+.textMain .schemaTable li{margin:0;padding:10px;position:relative;background:none;border-right:1px dotted #ccc;min-width:250px;display:inline-block;vertical-align:middle;text-align:left}
+.textMain .schemaTable li:last-child{border-right:0}
+.textMain .schemaTable p.textMainBold{padding:5px 0}
+.textMain .schemaTable p{position:relative;padding:5px 10px 5px 30px}
+.textMain .schemaTable p::before{position:absolute;left:5px;top:5px}
+.textMain .write-review{font:normal 16px/20px Verdana,Arial,Helvetica,sans-serif;float:right;position:relative;border:2px solid #ccc}
+.textMain .write-review a{display:block;padding:5px 15px;text-decoration:none}
+.textMain .write-review a::before{margin-right:15px}
+.textMain .useFul{margin:15px 0;padding:0}
+.textMain .useFul ul{margin:0;padding:0;font-size:0;text-align:center}
+.textMain .useFul li{margin:1%;padding:0;display:inline-block;vertical-align:middle;width:45%;min-width:290px;font:400 16px/20px 'Source Sans Pro',sans-serif;background:none;border:2px solid #ccc}
+.textMain .useFul li span{display:block;padding:15px 0;background:#ccc;margin:0 0 15px}
+.textMain .useFul li img{margin:10px 0}
+.textMain .useFul li a{display:block;padding:5px;text-decoration:none}
+.textMain .relList li{border:2px solid #ccc}
+.textMain .relList li a{padding:5px 15px}
+.textMain .subList li a:hover{color: #000;}
+
+.textMain .links-tabs{text-align:center}
+.textMain .links-tabs li{display:inline-block;list-style:none;vertical-align:top;margin:5px;padding:0;font-size:20px}
+.textMain .links-tabs li a{display:block;padding:3px 10px;text-align:center;background:#B1B7CC;color:#000;border-radius:7px;border:1px solid #B1B7CC;transition:.3s all ease;font:300 13px/25px Lato,sanserif}
+.textMain .links-tabs li a:hover{background:#fff;color:#000}
+
+.textMain .prfl-list-sp{margin:30px 0 0}
+.textMain .prfl-list-sp li{padding:0;clear:both;padding-bottom:25px;background:none;border-bottom:1px dotted #ccc;margin-bottom:30px}
+.textMain .prfl-list-sp li h3{text-transform:uppercase;font:700 26px/31px Lato,sans-serif;padding:0;margin:0 0 10px}
+.textMain .prfl-list-sp li h3 span{display:block;color:#9ba1b1;font-size:18px;font-weight:400;margin:0;line-height:22px;text-transform:none;margin-top:8px}
+.textMain .prfl-list-sp li:last-child{border-bottom:0}
+.textMain .prfl-list-sp li .dr-img{float:right;margin:10px 0 0 3%;position:relative}
+.textMain .prfl-list-sp li .dr-img::after{content:"";position:absolute;width:100%;height:100%;background:#f3f3f3;right:7px;top:7px;z-index:-1}
+.textMain .prfl-list-sp li .view-prof{margin-top:15px}
+.textMain .prfl-list-sp li .view-prof a{display:inline-block;width:120px;border-radius:1px;font-size:16px;font-weight:400;color:#000;background:#d1d7ed;text-align:center;padding:6px 0;border-radius:3px}
+.textMain .prfl-list-sp.non-clincl-lst{text-align:center;display:flex;flex-wrap:wrap}
+.textMain .prfl-list-sp.non-clincl-lst li{display:inline-block;vertical-align:top;margin:0 auto;min-width:210px;border:0}
+.textMain .prfl-list-sp.non-clincl-lst li .dr-img{float:inherit;margin-bottom:15px}
+.textMain .prfl-list-sp.non-clincl-lst li h3{font:700 18px/31px Lato,sans-serif;text-align:center}
+
+.textMain ul.youtube-list{padding:0 0 10px;display:flex;flex-wrap:wrap;justify-content:left}
+.textMain .youtube-list li{display:inline-block;max-width:575px;margin:0 auto 40px;padding:0;background:none;width:100%;text-align:center}
+.textMain .youtube-list li h2{font-size:16px;line-height:24px;font-weight:400}
+.textMain .youtube-list li h3{font-size:16px;line-height:24px;font-weight:400}
+.textMain .youtube-list li .videoBorder iframe{border:2px solid #b1b7cc}
+
+.conatct-common{display:flex;justify-content:center;flex-wrap:wrap;padding:25px 0 5px}
+.conatct-common p{display:inline-block;vertical-align:top;max-width:360px;text-align:center;margin:0 auto;padding-top:0}
+.conatct-common p:before{text-align:center;display:block}
+
+.textMain .patient-testimonials li{list-style:none;padding:15px;position:relative;margin:15px 10px;background:#f4f4f4; float: left; width: 98%;}
+.textMain .patient-testimonials li div{padding:5px 10px}
+.textMain .patient-testimonials li:after{content:'';position:absolute;width:30px;height:30px;border-top:5px solid #b1b7cc;border-left:5px solid #b1b7cc;top:0;left:0}
+.textMain .patient-testimonials li:before{content:'';position:absolute;width:30px;height:30px;border-bottom:5px solid #b1b7cc;border-right:5px solid #b1b7cc;bottom:0;right:0}
+.textMain .patient-testimonials li .readmore{float:left}
+.textMain .patient-testimonials li .source{position: absolute; padding: 0; right: 5px; bottom: 5px;}
+.textMain .patient-testimonials li .source span{display: none;}
+.textMain .patient-testimonials li .patient{font: 600 16px/27px 'Poppins', sans-serif;}
+.textMain .patient-testimonials-detail li{background:none;}
+.textMain .patient-testimonials li .intro_txt br{display: none;}
+
+.textMain .testimonial-Tab{padding: 0; text-align:center;}
+.textMain .testimonial-Tab li{padding: 0;background: none; font:600 20px/43px Lato,sans-serif; display: inline-block; margin: 0 3px;}
+.textMain .testimonial-Tab li a{ padding: 10px 20px; background: #b1b7cc;  color: #fff;}
+.textMain .testimonial-Tab li a:hover{background: #000;}
+video {
+	width: 100%;
+	height: 87%;
+	margin-top: 15px;
+}
+.pat-name {
+	text-align: right;
+}
+.numbers-list {
+	margin-left: 15px;
+}
+.numbers-list li {
+	background: none !important;
+	list-style: decimal;
+	padding-left: 10px !important;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 14px;
+}
+.numbers-list li:last-child {
+	border-bottom: none;
+}
+
+
+.patient-surgery-img-list{
+    text-align: center;
+    position: relative;
+   
+}
+
+.patient-surgery-img-list li{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 !important;
+    margin: 5px 4px !important;
+    border: 2px solid #b1b7cd;
+     position: relative;
+}
+
+.patient-surgery-btn-a{
+    font: 400 18px/24px Lato,sans-serif;
+    
+   position: absolute;
+    background: #d1d7ed;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 25px;
+    bottom: 0px;
+    left: 0;
+}
+
+
+.patient-surgery-btn-b{
+    font: 400 18px/24px Lato,sans-serif;
+    
+    position: absolute;
+    background: #d1d7ed;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 25px;
+    bottom: 0;
+    right:0;
+}
+
+.patient-surgery-icn {
+    position: absolute;
+    top: 27%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.qr-img img {
+    width: 200px;
+    height: auto;
+    
+    
+}
+
+
+
+
+
+@media screen and (max-width : 1170px) {
+    .textMain h3.service-description-head{margin: 2px 0;font:700 15px/18px Lato,sans-serif}    
+.textMain .service-description-text-s h2{font:400 16px/19px Lato,sans-serif;}   
+}
+
+@media screen and (max-width : 979px) {
+
+.textMain {padding: 0 10px 30px;}
+.dr-profile-pg .img-r{width:35%}
+.textMain h3.service-description-head{margin:0;font:700 15px/16px Lato,sans-serif}
+.textMain .service-description-text-s h2{font:400 15px/18px Lato,sans-serif;}    
+.textMain{padding:0 10px 30px}
+.service-image-s{width: 30%;}
+.service-description-s{width: 69%; padding: 10px 10px 15px 10px;}    
+}
+
+
+@media screen and (max-width : 640px) {
+#Content,#Sidebar{display:block}
+#Sidebar{margin:0 auto}
+.contactTable .table-cell{display:block;width:100%}
+.contact-address{border-radius:10px 10px 0 0}
+.contact-map{height:250px;border-radius:0 0 10px 10px}
+.textMain .useFul li{width:95%}
+.textMain .schemaTable .table-cell{display:block;margin:0 auto}
+.textMain .useFul li{width:95%}
+.dr-profile-pg .img-r{width:40%}
+.textMain .prfl-list-sp li h3{font:700 21px/26px Lato,sans-serif; margin: 10px 0;}
+.textMain h3.service-description-head{font:700 12px/14px Lato,sans-serif}  
+.textMain .service-description-text-s h2{font:400 14px/18px Lato,sans-serif;}
+.services-section-s{width:98%}
+.service-image-s{display:block;margin:0 auto;width:67%}
+.service-description-s{width:100%}
+}
+@media screen and (max-width : 479px) {
+    
+.patient-surgery-btn-b, .patient-surgery-btn-a {
+    font: 400 14px/20px Lato,sans-serif;
+    position: absolute;
+    background: #d1d7ed;
+    padding: 7px 15px;
+    display: inline-block;
+    border-radius: 20px;
+    bottom: 0;
+    right: 0;
+    left: unset;
+    width: 70px;
+}
+    
+    .patient-surgery-icn {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 60px;
+}
+    
+    
+.dr-profile-pg .img-r{width:75%;margin:10px auto;float:none} 
+
+.textMain .prfl-list-sp li .dr-img{float:inherit;margin:10px;text-align:center}
+.textMain .prfl-list-sp li{text-align:center}
+.textMain .prfl-list-sp li .dr-img{max-width:209px;margin:0 auto}
+    
+}

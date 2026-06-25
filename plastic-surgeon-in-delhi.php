@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plastic Surgeons in Delhi Dr. Manoj K. Johar</title>
+    <meta name="description" content="Dr. Manoj K. Johar is a renowned plastic surgeon in Delhi with over 37 years of experience. Specializing in cosmetic and reconstructive surgery, he is known for delivering safe, precise, and personalized results.">
+    
+<meta name="keywords" content="Dr. Manoj K. Johar, plastic surgeon in Delhi, best cosmetic surgeon Delhi, reconstructive surgery Delhi, experienced plastic surgeon, cosmetic surgery expert, plastic surgery clinic in Delhi, 37 years experience plastic surgeon">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Manoj K. Johar",
+  "jobTitle": "Plastic Surgeon",
+  "url": "https://www.theaesthetic.in",
+  "sameAs": [
+    "https://www.instagram.com/drjoharsplasticsurgerygroup/",
+    "https://www.linkedin.com/company/dr-johar-s-plastic-surgery-group/"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "The Aesthetic Clinic"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "W-3, Sector-1, Near Radisson Blu Hotel, Vaishali",
+    "addressLocality": "Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "201012",
+    "addressCountry": "India"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-85277 78462",
+    "contactType": "Customer Service"
+  }
+}
+</script>
+
+
+
+    
+    
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/dr-johar-logo-img.webp">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        /* Custom CSS */
+:root {
+    --rose: #d1d7ed;
+    --rose-light: #fff1f2;
+    --rose-dark: #a0a6c0;
+}
+
+hr{   
+    opacity: 1;
+    border-color: #be123c;
+    border-width: 0.25rem;
+
+}
+
+.hr-line-1{
+        width: 35rem !important;
+    }
+    .hr-line-2{
+        width: 24rem !important;
+    }
+    .hr-line-3{
+        width: 22rem !important;
+    }
+    .hr-line-4{
+        width: 18rem !important;
+    }
+    .hr-line-5{
+        width: 21rem !important;
+    }   
+
+.logo-image{
+    height: 60px;
+    width: auto;
+}
+
+/* Text Colors */
+.text-rose {
+    color: var(--rose) !important;
+}
+
+/* Background Colors */
+.bg-rose {
+    background-color: var(--rose) !important;
+}
+
+.bg-rose-light {
+    background-color: #f1f7ffc9 !important;
+}
+
+/* Button Styles */
+.btn-rose {
+    background-color: var(--rose);
+    color: black;
+    border: none;
+}
+
+.btn:hover, .btn-rose:hover, .btn-rose:focus {
+    background-color: var(--rose-dark);
+    color: black !important;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);    
+    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.03);
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;        
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     
+    border-radius: 10px; 
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8);
+    transform: perspective(1000px) rotateY(-15deg);
+    transition: transform 0.5s ease;    
+}
+.about-image:hover {
+        transform: perspective(1000px) rotateY(10deg) rotateX(-10deg);
+    }
+
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     
+    border-radius: 10px; 
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    transform: perspective(1000px) rotateY(-5deg);
+    transition: transform 0.5s ease;    
+}
+.card-image:hover {
+        transform: perspective(1000px) rotateY(10deg) rotateX(-10deg);
+    }
+    
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,#d1d7ed ,#a0a6c0);
+    z-index: 1;
+    opacity: 0%;
+}
+
+.banner-title{
+    font-size: 50px;
+    margin-right: 360px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner-subtitle{
+    font-size: 25px;
+    margin-right: 370px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+    .banner-title{
+    font-size: 38px;
+    margin-right: 120px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner-subtitle{
+    font-size: 20px;
+    margin-right: 150px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+} 
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .banner-title{
+    font-size: 30px;
+    margin-right: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner-subtitle{
+    font-size: 16px;
+    margin-right: 36px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+} 
+}
+
+@media screen and (min-width: 320px) and (max-width: 560px) {
+    .banner-title{
+    font-size: 23px;
+    margin-right: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner-subtitle{
+    font-size: 10px;
+    margin-right: 65px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+} 
+}
+
+.hero-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.card-facility:hover{
+    background: linear-gradient(to top, #d1d7ed ,#a0a6c0);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);  
+    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.03)
+}
+
+.card-body .text-muted p:hover{
+    color: white;
+}
+
+.card-img-top:hover{
+    
+}
+
+.nav-link{
+color: var(--rose);
+}
+
+.nav-pills .nav-link{   
+    background-color: aliceblue; 
+    margin-right: 8px;  
+    color: black;    
+}
+
+.nav-pills .nav-link.active{   
+    background-color: var(--rose);
+    color: black;
+}
+
+/* Timeline Styles */
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-left: 3px solid #a0a6c0;
+}
+
+.timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+/* Testimonial Styles */
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-color: var(--rose);
+}
+
+/* Hover Effects */
+.hover-white:hover {
+    color: white !important;
+}
+
+.btn .btn-rose{
+    color: white !important;
+}
+
+.hr-line{
+        width: 36rem;
+    }
+
+.footer-links{
+    text-decoration: none;
+    color: var(--bs-secondary-color) !important;;
+}
+/* Scroll to Top Button */
+#scrollToTop {
+    display: none;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 99;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+#scrollToTop:hover {
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 500px;
+    }
+    
+    /* .hero-content h1 {
+        font-size: 2.5rem;
+    } */
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        height: 400px;
+    }
+       
+}
+
+@media screen and (min-width: 320px) and (max-width: 426px) {
+    .hr-line-1{
+        width: 18rem !important;
+    }
+    .hr-line-2{
+        width: 20rem !important;
+    }
+    .hr-line-3{
+        width: 18rem !important;
+    }
+    .hr-line-4{
+        width: 16rem !important;
+    }
+    .hr-line-5{
+        width: 18rem !important;
+    }   
+}
+
+@media screen and (min-width: 426px) and (max-width: 574px) {
+    .hr-line-1{
+        width: 20rem !important;
+    }
+    .hr-line-2{
+        width: 21rem !important;
+    }
+    .hr-line-3{
+        width: 20rem !important;
+    }
+    .hr-line-4{
+        width: 15rem !important;
+    }
+    .hr-line-5{
+        width: 16rem !important;
+    }   
+}
+    </style>
+
+<style>
+    .logo-carousel {
+        padding: 40px 0;
+        /* background: linear-gradient(to bottom, #ffffff, #f8f9fa);        */
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .logo-carousel-inner {
+        display: flex;
+        animation: scroll 30s linear infinite;
+    }
+    
+    .logo-item {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 100px;
+        margin: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-item img {
+        max-width: 100%;
+        max-height: 100px;
+        object-fit: contain;
+    }
+    
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-220px * 5)); /* Width of logo + margin × number of logos */
+        }
+    }
+    
+    /* Pause animation on hover */
+    .logo-carousel:hover .logo-carousel-inner {
+        animation-play-state: paused;
+    }
+    
+    /* Make it responsive */
+    @media (max-width: 768px) {
+        .logo-item {
+            width: 150px;
+            margin: 0 15px;
+        }
+        
+        .logo-item img {
+            max-height: 60px;
+        }
+        
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(calc(-165px * 5)); /* Adjusted width + margin */
+            }
+        }
+    }
+</style>
+
+<style>
+    
+    .faq-container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;      
+    }
+    
+    .faq-item {
+        margin-bottom: 15px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        background-color: white;
+    }
+    
+    .faq-question {
+        background-color: #fff;
+        color: #333;
+        padding: 15px 20px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        border-left: 4px solid #6c757d;
+    }
+    
+    .faq-question:hover {
+        background-color: #f8f9fa;
+    }
+    
+    .faq-question.active {
+        border-left: 4px solid #0d6efd;
+    }
+    
+    .faq-answer {
+        padding: 0 20px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease, padding 0.3s ease;
+        background-color: #fff;
+    }
+    
+    .faq-answer.show {
+        max-height: 300px;
+        padding: 15px 20px;
+        border-top: 1px solid #eee;
+    }
+    
+    .faq-icon {
+        transition: transform 0.3s ease;
+    }
+    
+    .faq-question.active .faq-icon {
+        transform: rotate(180deg);
+    }
+    
+    .contact-details {
+        margin-bottom: 5px;
+    }
+    
+    .header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .header h1 {
+        color: #000;
+        font-weight: 700;
+    }
+    
+    .header p {
+        color: #6c757d;
+    }
+</style>
+
+</head>
+<body>
+    
+    <script>
+        {
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Dr. Manoj K Johar: Plastic Surgeon in Delhi, Breast Augmentation, Liposuction, PRP Treatment, Rhinoplasty Surgeon in Delhi",
+  "image": "https://assets.yourpractice.online/2014/dr-johar-logo-img.png",
+  "@id": "https://share.google/ZWWx5eK84SactmoHI",
+  "url": "https://www.theaesthetic.in/plastic-surgeon-in-delhi/",
+  "telephone": "+91-8527778462",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "108A, I.P.Extension, Patparganj",
+    "addressLocality": "Delhi",
+    "postalCode": "110092",
+    "addressCountry": "IN"
+  },
+  "description": "Dr. Manoj K Johar is a renowned plastic and cosmetic surgeon in Delhi, serving as the Director of Plastic Surgery and Head of Department at Max Super Specialty Hospital Zone 2, NCR. Recognized as one of the best plastic surgeons in Delhi, he specializes in a wide range of treatments, including laser hair removal, PRP treatment, nose surgery, liposuction, and breast augmentation in Delhi. His expertise extends to advanced procedures like Botox treatment, lip fillers, chemical peeling, facelift surgery, and gynecomastia correction. Dr. Johar also offers reconstructive treatments for burns, trauma, and post-surgical recovery, ensuring both function and aesthetics through personalized care. Book your appointment today!",
+  "medicalSpecialty": [
+    "PlasticSurgery",
+    "CosmeticSurgery",
+    "ReconstructiveSurgery"
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "17:00"
+  },
+  "priceRange": "$$",
+  "sameAs": [
+    "https://share.google/ZWWx5eK84SactmoHI"
+  ]
+}
+    </script>
+    
+    <!-- Header -->
+    <header class="sticky-top bg-white border-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand d-flex align-items-center" href="#">
+                        <img src="/assets/img/dr-johar-logo-img.webp" alt="Plastic Surgery Clinic" class="logo-image">
+                        <!-- <i class="fas fa-heart text-rose me-2"></i>
+                        <span class="fw-bold">Dr. Manoj K. Johar</span> -->
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto fs-5">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <a href="#contact">
+                        <button class="btn btn-lg btn-rose">Book Consultation</button>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section position-relative">
+            <div class="overlay"></div>
+            <img src="/assets/img/Dr johar.png" alt="Plastic Surgery Clinic" class="hero-image">
+            <div class="container z-10 text-center text-white hero-content">
+                <h1 class="banner-title fw-bold mb-4">Delhi's Premier Plastic Surgeon</h1>
+                <p class="banner-subtitle mb-5 ml-6">With over 30 years of experience, Dr. Manoj K. Johar delivers <br> exceptional results in cosmetic and reconstructive surgery.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <a href="#contact"><button class="btn btn-lg btn-light text-dark px-4 py-3">Book an Appointment</button></a>
+                    <!-- <button class="btn btn-lg btn-outline-light px-4 py-3">View Services</button> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6 col-md-6">
+                        <img src="/assets/img/hero2.png" alt="Dr. Manoj K. Johar 600x600" class="img-fluid rounded-4  about-image">
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <h2 class="fw-bold mb-2">About </h2>
+                        <hr style="width: 6rem;">
+                        <h1 class="fw-bold mb-2 text-dark">Dr. Manoj K. Johar</h1>
+                        <p class="text-muted mb-4" style="font-size: 18px;">
+                            Dr. Manoj K. Johar is one of the most distinguished plastic surgeons in Delhi with over 30 years of experience in the field of plastic and reconstructive surgery. His expertise spans cosmetic and laser aesthetic surgery, and his commitment to delivering natural, life-changing results has made him a trusted name in the industry.
+                        </p>
+                        <p class="text-muted mb-4" style="font-size: 18px;">
+                            Whether patients are looking for cosmetic enhancements, reconstructive surgeries, or advanced laser treatments, Dr. Johar's practice offers a comprehensive range of services to address all needs.
+                        </p>
+                        <div class="row g-3">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center ">
+                                    <img src="/assets/img/icons/6 icon.png" alt="">
+                                    <!-- <i class="fas fa-xl fa-award text-dark me-2"></i> -->
+                                    <span class="fw-bold fs-5 ms-2">30+ Years Experience</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="/assets/img/icons/1 icon.png" alt="">
+                                    <!-- <i class="fas fa-xl fa-user text-dark me-2"></i> -->
+                                    <span class="fw-bold fs-5 ms-2">Thousands of Patients</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center">
+                                    <img src="/assets/img/icons/2 icon.png" alt="">
+                                    <!-- <i class="fas fa-xl fa-file-alt text-dark me-2"></i> -->
+                                    <span class="fw-bold fs-5 ms-2">Advanced Certifications</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center"> 
+                                    <img src="/assets/img/icons/3 icon.png" alt="">
+                                    <!-- <i class="fas fa-xl fa-star text-dark me-2"></i> -->
+                                    <span class="fw-bold fs-5 ms-2">Top-Rated Surgeon</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-4">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-3">Comprehensive Plastic Surgery Services</h2>
+                    <hr class="mx-auto hr-line-1">
+                    <p class="text-muted mx-auto" style="max-width: 700px;">
+                        Dr. Johar provides a wide range of services that cater to different aesthetic and functional concerns. His practice is built on a patient-centric approach, ensuring that every procedure is customized to meet the individual needs of each patient.
+                    </p>
+                </div>
+
+                <ul class="nav nav-pills mb-4 justify-content-center fw-semibold" id="servicesTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="cosmetic-tab" data-bs-toggle="pill" data-bs-target="#cosmetic" type="button" role="tab">Cosmetic Surgery</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="reconstructive-tab" data-bs-toggle="pill" data-bs-target="#reconstructive" type="button" role="tab">Reconstructive Surgery</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="laser-tab" data-bs-toggle="pill" data-bs-target="#laser" type="button" role="tab">Laser Aesthetic Surgery</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="antiaging-tab" data-bs-toggle="pill" data-bs-target="#antiaging" type="button" role="tab">Anti-Aging Treatments</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content p-5 bg-white rounded-3 shadow-lg" id="servicesTabContent">
+                    <div class="tab-pane fade show active" id="cosmetic" role="tabpanel">
+                        <div class="row align-items-center g-4">
+                            <div class="col-md-4">
+                                <img src="/assets/img/1.png" alt="Cosmetic Surgery 400x400" class="img-fluid rounded-4 card-image">
+                            </div>
+                            <div class="col-md-8">
+                                <h3 class="fw-bold mb-3">Cosmetic Surgery</h3>
+                                <p class="text-muted mb-4">
+                                    Enhancing the aesthetic appeal of the face and body through procedures like facelifts, rhinoplasty (nose surgery), and body contouring. These procedures help to rejuvenate the appearance and improve self-esteem, making Dr. Johar one of the most sought-after names among those seeking a cosmetic transformation.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Rhinoplasty (Nose Surgery)</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Facelift & Neck Lift</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Blepharoplasty (Eyelid Surgery)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Liposuction</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Breast Augmentation/Reduction</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Body Contouring</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="reconstructive" role="tabpanel">
+                        <div class="row align-items-center g-4">
+                            <div class="col-md-4">
+                                <img src="/assets/img/2.png" alt="Reconstructive Surgery" class="img-fluid rounded-4 card-image">
+                            </div>
+                            <div class="col-md-8">
+                                <h3 class="fw-bold mb-3">Reconstructive Surgery</h3>
+                                <p class="text-muted mb-4">
+                                    This branch of plastic surgery focuses on restoring the form and function of parts of the body affected by trauma, congenital defects, or medical conditions. Dr. Johar's skill in reconstructive surgery is renowned, with patients coming from all walks of life to benefit from his expertise in corrective surgeries.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Burn Reconstruction</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Scar Revision</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Hand Surgery</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Cleft Lip and Palate Repair</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Post-Cancer Reconstruction</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Trauma Reconstruction</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="laser" role="tabpanel">
+                        <div class="row align-items-center g-4">
+                            <div class="col-md-4">
+                                <img src="/assets/img/3.png" alt="Laser Aesthetic Surgery" class="img-fluid rounded-4 card-image">
+                            </div>
+                            <div class="col-md-8">
+                                <h3 class="fw-bold mb-3">Laser Aesthetic Surgery</h3>
+                                <p class="text-muted mb-4">
+                                    Dr. Johar is highly proficient in using advanced laser technology to improve the skin's appearance. Whether it is for skin rejuvenation, scar reduction, or pigmentation correction, laser aesthetic surgery plays a pivotal role in Dr. Johar's comprehensive treatment offerings.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Laser Skin Resurfacing</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Laser Hair Removal</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Laser Tattoo Removal</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Laser Vein Treatment</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Pigmentation Treatment</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Acne Scar Treatment</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="antiaging" role="tabpanel">
+                        <div class="row align-items-center g-4">
+                            <div class="col-md-4">
+                                <img src="/assets/img/4.png" alt="Anti-Aging Treatments" class="img-fluid rounded-4 card-image">
+                            </div>
+                            <div class="col-md-8">
+                                <h3 class="fw-bold mb-3">Anti-Aging Treatments</h3>
+                                <p class="text-muted mb-4">
+                                    Age-related concerns such as wrinkles, sagging skin, and fine lines are addressed through a variety of innovative anti-aging treatments. These procedures are designed to combat the visible signs of aging, allowing patients to regain a more youthful and vibrant appearance.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Botox Injections</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Dermal Fillers</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Chemical Peels</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Microdermabrasion</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> PRP Therapy</li>
+                                            <li class="mb-2"><i class="fas fa-circle text-dark me-2 small"></i> Thread Lift</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Qualifications -->
+        <section id="experience" class="py-4 bg-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-3">Experience & Qualifications</h2>
+                    <hr class="mx-auto hr-line-2">
+                    <p class="text-muted mx-auto" style="max-width: 700px;">
+                        Dr. Johar's journey to becoming the best plastic surgeon in Delhi began with a solid educational foundation and decades of professional experience.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-lg rounded-3">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold mb-4">
+                                    <img src="/assets/img/icons/4 icon.png" alt="">
+                                    <!-- <i class="fas fa-file-alt text-dark me-2"></i> -->
+                                    Educational Background
+                                </h3>
+                                <ul class="list-unstyled timeline">
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">MBBS & MS in General Surgery</h4>
+                                        <p class="text-muted small">Reputed Medical College</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">MCh in Plastic Surgery</h4>
+                                        <p class="text-muted small">Specializing in Cosmetic & Reconstructive Surgery</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Fellowship in Advanced Surgical Techniques</h4>
+                                        <p class="text-muted small">International Training</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Laser Photonics and Photomodulation Training</h4>
+                                        <p class="text-muted small">Specialized Certification</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Lasers in Aesthetic Medicine and Surgery</h4>
+                                        <p class="text-muted small">Advanced Training</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card h-100 border-0 shadow-lg rounded-3">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold mb-4">
+                                    <img src="/assets/img/icons/5 icon.png" alt="">
+                                    <!-- <i class="fas fa-award text-dark me-2"></i> -->
+                                    Professional Experience
+                                </h3>
+                                <ul class="list-unstyled timeline">
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Director of Plastic Surgery</h4>
+                                        <p class="text-muted small">Leading Medical Institution in Delhi</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Head of Department</h4>
+                                        <p class="text-muted small">Plastic & Reconstructive Surgery</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Senior Consultant</h4>
+                                        <p class="text-muted small">Multiple Renowned Hospitals</p>
+                                    </li>
+                                    <li class="timeline-item">
+                                        <h4 class="fw-semibold">Member</h4>
+                                        <p class="text-muted small">Association of Plastic Surgeons of India (APSI)</p>
+                                        <p class="text-muted small">Indian Association of Aesthetic Plastic Surgeons (IAAPS)</p>
+                                        <p class="text-muted small">Indian Association of Laser Surgery and Medicine (ISLSM)</p>
+                                        <p class="text-muted small">Indian Medical Association (IMA)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Logos carousel Section -->
+        <section class="logo-carousel">
+            <div class="container">
+                <div class="logo-carousel-outer">
+                    <div class="logo-carousel-inner">
+                        <!-- First set of logos -->
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-international-college-of-surgeons.webp" alt="MAX Healthcare">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-medical-associations.webp" alt="International College of Surgeons">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-association-of-plastic-surgeons-of-india.webp" alt="Medical Association">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-medical-concil-of-india.webp" alt="Medical Council">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-max-healthcare.webp" alt="University">
+                        </div>
+                        
+                        <!-- Duplicate logos to create seamless effect -->
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-international-college-of-surgeons.webp" alt="MAX Healthcare">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-medical-associations.webp" alt="International College of Surgeons">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-association-of-plastic-surgeons-of-india.webp" alt="Medical Association">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-medical-concil-of-india.webp" alt="Medical Council">
+                        </div>
+                        <div class="logo-item">
+                            <img src="/assets/img/cred-max-healthcare.webp" alt="University">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section class="py-4">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-3">State-of-the-Art Facilities</h2>
+                    <hr class="mx-auto hr-line-3">
+                    <p class="text-muted mx-auto" style="max-width: 700px;">
+                        Dr. Johar practices in state-of-the-art facilities equipped with the latest medical technology to ensure optimal results and patient comfort.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card-facility h-100 border-0 shadow rounded-4">
+                            <img src="/assets/img/5.png" class="card-img-top" alt="Modern Clinic">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold mb-2">Modern Clinic</h3>
+                                <p class="text-muted">
+                                    Our clinic is designed with patient comfort in mind, featuring a welcoming environment and private consultation rooms.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-facility h-100 border-0 shadow rounded-4">
+                            <img src="/assets/img/6.png" class="card-img-top" alt="Advanced Technology">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold mb-2">Advanced Technology</h3>
+                                <p class="text-muted">
+                                    We utilize the latest medical equipment and technology to achieve optimal results for all procedures.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-facility h-100 border-0 shadow rounded-4">
+                            <img src="/assets/img/7.png" class="card-img-top" alt="Sterile Operating Rooms">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold mb-2">Sterile Operating Rooms</h3>
+                                <p class="text-muted">
+                                    Our operating rooms meet the highest standards of cleanliness and safety for all surgical procedures.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-4 bg-rose-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-3">Patient Testimonials</h2>
+                    <hr class="mx-auto hr-line-4">
+                    <p class="text-muted mx-auto" style="max-width: 800px;">
+                        Hear what our patients have to say about their experience with Dr. Johar and the transformative results they've achieved.
+                    </p>
+                </div>
+
+                <div class="position-relative testimonial-container">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card border-0 shadow mx-auto" style="max-width: 700px;">
+                                    <div class="card-body p-3 text-center">
+                                        <div class="mb-2 h-3 w-3">
+                                            <img src="/assets/img/person 2.png" alt="" style="height: 70px;">
+                                        </div>
+                                        <div class="mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                        <p class="fst-italic text-muted mb-4">"Thorough professional expert at his work no blame game understanding service with smile personal rapport not that you start look some other person or get into horrors of some ."</p>
+                                        <p class="fw-bold fs-4 mb-1">Shalini Pokhriyal</p>
+                                        <p class="text-muted small">Rhinoplasty</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card border-0 shadow mx-auto" style="max-width: 700px;">
+                                    <div class="card-body p-3 text-center">
+                                        <div class="mb-2">
+                                            <img src="/assets/img/person.png" alt="img" style="height: 70px;">
+                                        </div>
+                                        <div class="mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                        <p class="fst-italic text-muted mb-4">"Hi everyone I have hyperpigmentation issue and very dark spots and my face and neck after lots of consultation and treatment I found to Dr Manoj johar aesthetic'dr did my treatment on my face and neck.dr Manoj johar is very good doctor for skin and face related issue"</p>
+                                        <p class="fw-bold fs-4 mb-1">
+                                            Ankur kumar Ankur kumar</p>
+                                        <p class="text-muted small">Reconstructive Surgery</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card border-0 shadow mx-auto" style="max-width: 700px;">
+                                    <div class="card-body p-3 text-center">
+                                        <div class="mb-2">
+                                            <img src="/assets/img/person 3.png" alt="img" style="height: 70px;">
+                                        </div>
+                                        <div class="mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                        <p class="fst-italic text-muted mb-4">"I'm deeply indebted to Dr. Manoj Johar, Dr. Nandini, and Dr. Ankur for their exceptional surgical expertise that saved my child's vital organs and restored their health. Their precision and skill in repairing my child's severed ear, and later, their damaged nerve and tendon, are a testament to their mastery. Thanks to their timely intervention, my child's organs were saved, and they're now thriving. The team's compassion, kindness, and dedication have earned my eternal gratitude. I highly recommend them for their outstanding surgical care and life-changing results."</p>
+                                        <p class="fw-bold fs-4 mb-1">Kamna Sharma</p>
+                                        <p class="text-muted small">Anti-Aging Treatment</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card border-0 shadow mx-auto" style="max-width: 700px;">
+                                    <div class="card-body p-3 text-center">
+                                        <div class="mb-2">
+                                            <img src="/assets/img/person 4.png" alt="img" style="height: 70px;">
+                                        </div>
+                                        <div class="mb-2">
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                            <i class="fas fa-star text-warning"></i>
+                                        </div>
+                                        <p class="fst-italic text-muted mb-4">"I underwent a rhinoplasty surgery at Dr Manoj johar ,Dr johar examined my face and explain all things.after 5 days my cast removed and I got best result I am very happy.i recommend
+                                            Dr Manoj johar and team for rhinoplasty surgery. excellent tertiary care provided for all matters of cosmetic concerns."</p>
+                                        <p class="fw-bold fs-4 mb-1">Sushma Vishwakarma</p>
+                                        <p class="text-muted small">Anti-Aging Treatment</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon bg-rose rounded-circle p-3" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bg-rose rounded-circle p-3" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="carousel-indicators position-relative mt-3">
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"  aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-4">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold mb-3">Book Your Consultation</h2>
+                    <hr class="mx-auto hr-line-5">
+                    <p class="text-muted mx-auto " style="max-width: 700px;">
+                        Take the first step towards achieving your aesthetic goals. Schedule a consultation with Dr. Johar today.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-lg rounded-4">
+                            
+                          <div class="container faq-container">
+                                <div class="header">
+                                    <h1>Frequently Asked Questions</h1>
+                                    <p>Find answers to common questions about our services</p>
+                                </div>
+                                
+                                <div class="faq-list">
+                                    <div class="faq-item">
+                                        <div class="faq-question">
+                                            <span>Are plastic surgeons MBBS?</span>
+                                            <span class="faq-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p class="contact-details">Yes, plastic surgeons are typically MBBS (Bachelor of Medicine and Bachelor of Surgery) holders who undergo additional specialized training in plastic and reconstructive surgery. Dr. Manoj K. Johar, with over 37 years of experience, has received comprehensive training and expertise in various aspects of plastic and cosmetic surgery, making him one of the most trusted names in the field.</p>                                           
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="faq-item">
+                                        <div class="faq-question">
+                                            <span>Is plastic surgery painful?</span>
+                                            <span class="faq-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>While plastic surgery is generally performed under anesthesia to ensure you remain comfortable throughout the procedure, post-surgery discomfort can occur. Dr. Manoj K. Johar and his team provide excellent post-operative care to manage any pain and ensure a smooth recovery. Pain levels vary depending on the type of surgery, but the goal is always to minimize discomfort while achieving the best results.</p>                                          
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="faq-item">
+                                        <div class="faq-question">
+                                            <span>Can plastic surgery remove scars?</span>
+                                            <span class="faq-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Yes, plastic surgery can significantly reduce or remove scars, depending on the severity and type of scar. Dr. Manoj K. Johar specializes in reconstructive and aesthetic procedures that help minimize the appearance of scars. Techniques such as scar revision surgery can make a big difference in restoring a smoother, more even skin texture.</p>                                         
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="faq-item">
+                                        <div class="faq-question">
+                                            <span>How to choose the best cosmetic surgeon in Delhi?</span>
+                                            <span class="faq-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>Choosing the best cosmetic surgeon involves considering their experience, qualifications, patient reviews, and the types of procedures they specialize in. Dr. Manoj K. Johar, with over 37 years of experience in the field, has helped countless patients achieve their aesthetic goals. It’s important to consult with a surgeon who listens to your concerns, provides honest advice, and uses advanced, safe techniques. Dr. Johar’s expertise and reputation in Delhi make him a trusted choice for your cosmetic surgery needs.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="faq-item">
+                                        <div class="faq-question">
+                                            <span>What is the best age to have cosmetic surgery?</span>
+                                            <span class="faq-icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="faq-answer">
+                                            <p>The best age for cosmetic surgery depends on the individual and the type of procedure. Generally, people seek cosmetic surgery to address issues such as aging, body contouring, or enhancing facial features. Dr. Manoj K. Johar recommends consulting a professional for personalized advice. While many patients opt for cosmetic surgery in their 30s to 50s, the procedure can be performed at other ages depending on the health, needs, and goals of the patient.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            
+                          <!--  <div class="card-body p-4">-->
+                          <!--      <h3 class="fw-bold mb-4">Contact Information</h3>-->
+                          <!--      <div class="d-flex mb-4">-->
+                          <!--          <div class="me-3">-->
+                          <!--              <i class="fas fa-map-marker-alt fa-xl text-dark"></i>-->
+                          <!--          </div>-->
+                          <!--          <div>-->
+                          <!--              <h5 class="fw-semibold">Practice Locations</h5>-->
+                          <!--              <span><a class="footer-links" href="https://maps.app.goo.gl/kmS5oUSGhb5nSfHSA">108A, I.P.Extension, Patparganj, Delhi, 110092</a></span>                                       -->
+                          <!--          </div>-->
+                          <!--      </div>-->
+                          <!--      <div class="">-->
+                          <!--      <div class="d-flex mb-4">-->
+                          <!--          <div class="me-3">-->
+                          <!--              <i class="fas fa-phone fa-lg text-dark"></i>-->
+                          <!--          </div>-->
+                          <!--          <div>-->
+                          <!--              <h5 class="fw-semibold">Phone</h5>-->
+                          <!--              <span><a class="footer-links" href="tel:+91 85277 78462">+91 85277 78462</a></span>-->
+                                       
+                          <!--          </div>-->
+                          <!--      </div>-->
+                          <!--      <div class="d-flex mb-4">-->
+                          <!--          <div class="me-3">-->
+                          <!--              <i class="fas fa-envelope fa-lg text-dark"></i>-->
+                          <!--          </div>-->
+                          <!--          <div>-->
+                          <!--              <h5 class="fw-semibold">Email</h5>-->
+                          <!--              <span><a class="footer-links" href="mailto:contact@theaesthetic.in">contact@theaesthetic.in</a></span>-->
+                                       
+                          <!--          </div>-->
+                          <!--      </div>-->
+                          <!--  </div>-->
+                          <!--      <div class="d-flex mb-0">-->
+                          <!--          <div class="me-3">-->
+                          <!--              <i class="fas fa-clock fa-lg text-dark"></i>-->
+                          <!--          </div>-->
+                          <!--          <div>-->
+                          <!--              <h5 class="fw-semibold">Clinic Hours</h5>-->
+                          <!--              <p class="text-muted mb-2">Monday - Saturday: 10:00 AM - 7:00 PM</p>-->
+                          <!--              <p class="text-muted">Sunday: Closed</p>-->
+                          <!--          </div>-->
+                          <!--      </div>-->
+
+                          <!--</div>-->
+                          
+                          
+                          
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-6 ">
+                        <div class="card h-100 border-0 shadow-lg rounded-4">
+                            <div class="card-body p-4">
+                                <h3 class="fw-bold mb-4">Request an Appointment</h3>
+                                
+                                <form accept-charset='UTF-8' action='https://app.formester.com/forms/yuMfBK5Ty/submissions' method='POST'>
+                            <div class="row mb-3 fw-semibold">
+                                
+                                  <div class="col-md-6 mb-3 mb-md-0">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" name="name" placeholder="Enter your first name" required>
+                                 </div>
+                                  <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter your last name" required>
+                                </div>
+                            </div>
+                            <div class="mb-3 fw-semibold">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3 fw-semibold">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3 fw-semibold">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us more about your concerns or questions" required></textarea>
+                            </div>
+                                <button type="submit" class="btn fw-bold btn-rose w-100 py-3">Submit Request</button>
+                                </form>
+      
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="fw-bold mt-5">Find Us</h3>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14007.698243109677!2d77.304497!3d28.632023!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb355f12dc57%3A0x394683b40da3bfe0!2sDr.%20Manoj%20K%20Johar%3A%20Best%20Plastic%20Surgeon%20in%20Delhi%2C%20Liposuction%2C%20Breast%20Augmentation%20Rhinoplasty!5e0!3m2!1sen!2sin!4v1743681073372!5m2!1sen!2sin" width="100%" height="300" style="border:0;border-radius: 10px; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                  
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <!-- <i class="fas fa-heart text-rose me-2"></i> -->
+                        <span class="fw-bold fs-5">Dr. Manoj K. Johar</span>                        
+                    </div>
+                    <p class="text-white">
+                        Delhi's premier plastic surgeon with over 30 years of experience in cosmetic and reconstructive surgery.
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#about" class="text-white text-decoration-none hover-white">About Dr. Johar</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white text-decoration-none hover-white">Our Services</a></li>
+                        <li class="mb-2"><a href="#experience" class="text-white text-decoration-none hover-white">Experience & Qualifications</a></li>
+                        <li class="mb-2"><a href="#testimonials" class="text-white text-decoration-none hover-white">Patient Testimonials</a></li>
+                        <li class="mb-2"><a href="#contact" class="text-white text-decoration-none hover-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Services</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-white">Cosmetic Surgery</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-white">Reconstructive Surgery</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-white">Laser Aesthetic Surgery</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none hover-white">Anti-Aging Treatments</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold mb-3">Book an Appointment</h5>
+                    <p class="text-white mb-3">
+                        Schedule your consultation today to discuss your aesthetic goals with Dr. Johar.
+                    </p>
+                    <button class="btn btn-rose">
+                        <i class="fas fa-calendar-alt me-2"></i> <a href="#contact" style="text-decoration: none; color: black;"> Book Now </a>
+                    </button>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-4 pt-4 text-center text-white">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Dr. Manoj K. Johar. All rights reserved. Made with <i class="fas fa-heart"></i> By Branding Pioneers. </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button id="scrollToTop" class="btn btn-rose rounded-circle position-fixed bottom-0 end-0 m-4 d-none">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    <script>
+        // Scroll to Top Button
+window.addEventListener('scroll', function() {
+    const scrollToTopBtn = document.getElementById('scrollToTop');
+    if (window.scrollY > 300) {
+        scrollToTopBtn.classList.remove('d-none');
+    } else {
+        scrollToTopBtn.classList.add('d-none');
+    }
+});
+
+document.getElementById('scrollToTop').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+            const navbarHeight = document.querySelector('header').offsetHeight;
+            const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+            
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+    </script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const faqQuestions = document.querySelectorAll('.faq-question');
+        
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const isActive = this.classList.contains('active');
+                
+                // Close all FAQs
+                faqQuestions.forEach(q => {
+                    q.classList.remove('active');
+                    q.nextElementSibling.classList.remove('show');
+                });
+                
+                // If it wasn't active before, open it
+                if (!isActive) {
+                    this.classList.add('active');
+                    answer.classList.add('show');
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

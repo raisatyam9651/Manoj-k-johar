@@ -1,0 +1,140 @@
+<?php
+/**
+ * Used for for managing content using API
+ * @package YPO Content - Admin
+ * @author Baskar | 20-07-2018
+ * @version 2.0
+*/
+class YPOApi
+{
+    const API_URL = "https://content.yourpractice.online/api/content/";
+	const API_LIST_URL = "https://content.yourpractice.online/api/content-list/";
+	const API_VIEW_URL = "https://content.yourpractice.online/api/content-view-manual/";
+    const CONTENT_PATH = "content/";	
+    const OAUTH_TOKEN_URL = "https://content.yourpractice.online/oauth/token";
+	protected $api_url = self::API_URL;
+	protected $api_list_url = self::API_LIST_URL;
+	protected $api_view_url = self::API_VIEW_URL;
+    protected $oauth_token_url = self::OAUTH_TOKEN_URL;
+	protected $api_key = 'p0ov1u-P5UiE0ra6Q9RyVLlKvz4zXfBBLcxr0nKRNsE';
+	static $methods = array('content', 'authentication', 'contentList', 'contentView');
+	
+	/**
+     * call methods used for to call methods dynamically
+     *
+     * @param  mixed $url for get content URL
+     * @param  boolean $post user input like client_id, api_key
+     */
+	function __call($method, $args) {
+		if(in_array($method, self::$methods)) {
+		  array_unshift($args, $this);
+		  return call_user_func_array(array($this, $method), $args);
+		}
+	}
+	
+	/**
+     * call API methods to get content
+     *
+     * @param  mixed $url for get content URL
+     * @param  boolean $post user input like client_id, api_key
+     */
+	function request($url, $post) {
+		
+		$options = array(CURLOPT_POST => true,
+		CURLOPT_RETURNTRANSFER => true,
+		CURLOPT_POSTFIELDS => http_build_query($post),
+		CURLOPT_HTTPHEADER => array("Expect: "));
+
+		$ch = curl_init($url);
+		curl_setopt_array($ch, $options);
+		$result = curl_exec($ch);
+		$httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+		if($httpCode == '404') {
+			$result = '404';
+		}
+		curl_close($ch);
+		return $result;
+	}
+	
+	/**
+     * Get content using user input like api_key, client_id, $specality_id
+     *
+     * @param  mixed $arg1 for user input
+     * @param  boolean $arg2 for API URL
+     */
+	private function content($arg1, $arg2) {
+		$arg2->api_key = $arg1->api_key;
+		$content_response = $this->request($arg1->api_url, $arg2);
+		$content_error_msg = $this->checkAuthResponse($content_response);
+		if(empty($content_error_msg)) {
+			return $content_response;
+		} else {
+			return $content_error_msg;
+		}
+    }
+	
+	/**
+     * Get content using user input like api_key, client_id, $specality_id
+     *
+     * @param  mixed $arg1 for user input
+     * @param  boolean $arg2 for API URL
+     */
+	private function contentList($arg1, $arg2) {
+		$arg2->api_key = $arg1->api_key;
+		$content_response = $this->request($arg1->api_list_url, $arg2);
+		$content_error_msg = $this->checkAuthResponse($content_response);
+		if(empty($content_error_msg)) {
+			return $content_response;
+		} else {
+			return $content_error_msg;
+		}
+    }
+	
+	/**
+     * Get content using user input like api_key, client_id, $specality_id
+     *
+     * @param  mixed $arg1 for user input
+     * @param  boolean $arg2 for API URL
+     */
+	private function contentView($arg1, $arg2) {
+		$arg2->api_key = $arg1->api_key;
+		$content_response = $this->request($arg1->api_view_url, $arg2);
+		$content_error_msg = $this->checkAuthResponse($content_response);
+		if(empty($content_error_msg)) {
+			return $content_response;
+		} else {
+			return $content_error_msg;
+		}
+    }
+	
+	/**
+     * check authentication whether client and api key or not
+     *
+     * @param  mixed $arg1 for user input
+     * @param  boolean $arg2 for API URL
+     */
+    private function authentication($arg1, $arg2) {
+		return $this->request($arg1->api_url, $arg2);
+    }
+	
+    /**
+     * check response and throw Exception if response is not proper
+     *
+     * @param  mixed $response
+     * @param  boolean $strict
+     * @throws BaseException
+     */
+    protected function checkResponse($response, $strict = true) {
+		$error_message = '';
+		if($response === false) {
+			$error_message = 'Unknown error';
+		} elseif ($strict && is_string($response)) {
+			$error_message = 'Response should be returned in JSON format';
+		} elseif ($response == 400) {
+			$error_message = $response->error_msg;
+		}
+		return $error_message;
+    }
+}
+
+?>

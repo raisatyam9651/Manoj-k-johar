@@ -1,0 +1,257 @@
+.pp-close.position-right-align{
+    right: 10px !important;
+}
+#PPContainer{
+    display: none !important;
+}
+#Container ::selection{background:#CCC;color:#000}
+.adaOn span{background:#003263;color:#fff;border-radius:50%}
+#Scroller a{background:#fff;border:2px solid #000;color:#000;border-radius:50%}
+
+
+
+#Container ::selection{background:#CCC;color:#000}
+.adaOn span{background:#003263;color:#fff;border-radius:50%}
+.sec_heading{font-size:25px;color:#000;margin-top:40px;font-weight:800}
+.content{width:90%;padding:0;margin:0 auto}
+.center{margin:0 auto;max-width:270px;font-size:40px}
+.question{position:relative;background:#d1d7ed;margin:0;padding:10px 10px 10px 50px;display:block;width:100%;cursor:pointer}
+.answers{padding:0 15px;margin:5px 0;width:100%!important;height:0;overflow:hidden;z-index:-1;position:relative;opacity:0;-webkit-transition:.3s ease;-moz-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease}
+.questions:checked ~ .answers{height:auto;opacity:1;padding:15px}
+.plus{position:absolute;margin-left:10px;margin-top:10px;z-index:5;font-size:2em;line-height:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;-webkit-transition:.3s ease;-moz-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease}
+.questions:checked ~ .plus{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg)}
+.questions{display:none}
+.main_form{background-color:#d1d7ed;padding:30px 15px;border-radius:10px;z-index:999}
+.appointment{margin-top:-35px}
+@media (max-width:767px) and (min-width:200px) {
+.gap{margin-top:18px}
+.appointment{margin-top:-20px}
+}
+
+#services{background:#000;padding:75px 0 65px}
+.serv-title h2{font:600 28px/35px Lato,sans-serif;color:#fff;text-align:center;text-transform:uppercase;letter-spacing:4px;padding:0 0 20px}
+.serv-intro{font:400 17px/27px Lato,sans-serif;color:#fff;text-align:center;padding:0 0 40px}
+.serv-blks li p a{display:block;padding:200px 0 10px;font:600 15px/21px Lato,sans-serif;color:#000;text-transform:uppercase;text-align:center}
+.serv-blks li .serv-more-info a{font:400 12px/25px Lato,sans-serif;color:#000;text-transform:uppercase;padding:0 0 65px;background:url(/images/serv-plus.png) center 35px no-repeat;text-align:center;display:block}
+.serv-blks li.serv-surg-trmnt{background:#e9e7e7;border-right:1px solid #fff}
+.serv-blks li.serv-surg-trmnt p a{background:url(/images/serv-surgical-treatments-new.jpg) top center no-repeat}
+.serv-blks li.serv-non-surg-trmnt p a{background:url(/images/serv-non-surgical-treatments-new.jpg) top center no-repeat}
+.serv-blks li.serv-cosm-med p a{background:url(/images/serv-cosmetic-medicine-new.jpg) top center no-repeat}
+.serv-blks li.serv-prev-asth p a{background:url(/images/serv-preventive-aesthetics-updated.jpg) top center no-repeat}
+.serv-blks li.serv-age-rev p a{background:url(/images/serv-age-reversal-new.jpg) top center no-repeat}
+.serv-blks li.serv-surg-trmnt:hover p a{background:url(/images/serv-surgical-treatments-new-hover.jpg) top center no-repeat}
+.serv-blks li.serv-non-surg-trmnt:hover p a{background:url(/images/serv-non-surgical-treatments-new-hover.jpg) top center no-repeat}
+.serv-blks li.serv-cosm-med:hover p a{background:url(/images/serv-cosmetic-medicine-new-hover.jpg) top center no-repeat}
+.serv-blks li.serv-prev-asth:hover p a{background:url(/images/serv-preventive-aesthetics-updated-hover.jpg) top center no-repeat}
+.serv-blks li.serv-age-rev:hover p a{background:url(/images/serv-age-reversal-new-hover.jpg) top center no-repeat}
+.serv-blks li.serv-non-surg-trmnt{background:#dbd9d9;border-right:1px solid #fff}
+.serv-blks li.serv-cosm-med{background:#cdcaca;border-right:1px solid #fff}
+.serv-blks li.serv-prev-asth{background:#dbd9d9;border-right:1px solid #fff}
+.serv-blks li.serv-age-rev{background:#e9e7e7}
+.serv-blks li:hover{background:#d1d7ed;transition:.2s all linear}
+#our-team{padding:65px 0 35px}
+.our-team-title{font:600 28px/35px Lato,sans-serif;color:#000;text-align:center;text-transform:uppercase;letter-spacing:4px;padding:0 0 40px}
+#our-team-sec ul{display:flex;flex-wrap:wrap}
+#our-team-sec ul li{display:inline-block;vertical-align:top;text-align:center;margin:20px auto;  width: 210px;}
+#our-team-sec ul li .dr-txt{padding:15px 0 0;color:#000}
+#our-team-sec ul li .dr-txt .dr-txt-one,#our-team-sec ul li .dr-txt .dr-txt-one h1 a{font:500 20px/35px Lato,sans-serif}
+#our-team-sec ul li .dr-txt .dr-txt-two{font:400 14px/25px Lato,sans-serif;padding:0 0 15px}
+#our-team-sec ul li .dr-txt .view-prof{font:400 13px/25px Lato,sans-serif;text-transform:uppercase}
+#our-team-sec ul li .dr-txt .view-prof a{display:block;background:#d1d7ed;padding:3px 15px;display:inline-block;border-radius:2px}
+
+#surgical-trtmt{padding:60px 0;background:#000;margin:55px 0 0}
+.surgical-trtmt-blks li .trmnt-pic a{float:left;margin:0 60px 0 0;width:478px;height:259px}
+.surgical-trtmt-blks li .trmnt-pic a span{display: none;}
+.surgical-trtmt-blks li .trmnt-pic.non-surgical-trtmt-picture a{background:url(/images/non-surgical-treatments-new.jpg) 0 0 no-repeat}
+.surgical-trtmt-blks li .trmnt-pic.surgical-trtmt-picture a{background:url(/images/surgical-treatments-new.jpg) 0 0 no-repeat}
+.surgical-trtmt-blks li .trmnt-pic.non-surgical-trtmt-picture a:hover{background:url(/images/non-surgical-treatments-new-hover.jpg) 0 0 no-repeat}
+.surgical-trtmt-blks li .trmnt-pic.surgical-trtmt-picture a:hover{background:url(/images/surgical-treatments-new-hover.jpg) 0 0 no-repeat}
+.surgical-trtmt-blks li .trmnt-txt{float:left;width:52%}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-txt-title{color:#fff;font:600 40px/35px Lato,sans-serif;margin:0 0 25px}
+.surgical-trtmt-blks li .trmnt-txt p{color:#fff;font:400 17px/30px Lato,sans-serif;min-height:150px}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-more a{font:400 17px/30px Lato,sans-serif;color:#000;background:#d1d7ed;padding:9px 18px;float:left;margin:20px 0 0;transition:.2s all linear}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-more a:hover{background:#fff;transition:.2s all linear}
+.surg-trmnt-tabs{clear:both;padding:50px 0 0}
+.surg-trmnt-tabs ul{margin:0 auto;width:35px}
+.surg-trmnt-tabs ul li a{width:15px;height:15px;float:left;background:url(/images/treatment-bullets.png) 0 0 no-repeat;display:block;margin:0 2px 0 0}
+.surg-trmnt-tabs ul li a:hover,.surg-trmnt-tabs ul li.surg-trmnt_here a{background:url(/images/treatment-bullets.png) -20px 0 no-repeat}
+.surg-trmnt-tabs ul li a span{display:none}
+
+
+#video-logs-sec .nbs-flexisel-item img{filter:inherit;}
+
+
+
+#video-logs{padding:60px 0 40px}
+.video-tilte{font:600 28px/30px Lato,sans-serif;color:#000;letter-spacing:3px;text-align:center;text-transform:uppercase;padding:0 0 40px}
+#video-logs p{font:300 15px/26px Lato,sans-serif;color:#000;padding:15px 0 0}
+#video-logs p span{color:red}
+#video-logs .nbs-flexisel-nav-right:before,#video-logs .nbs-flexisel-nav-left:before{display:none}
+#video-logs .nbs-flexisel-nav-left{background:url(/images/video-left-arrow.png) center no-repeat;width:25px}
+#video-logs .nbs-flexisel-nav-right{background:url(/images/video-right-arrow.png) center no-repeat;width:25px}
+
+
+#patient-testimonial{padding: 40px 0 30px; border-top: 1px solid #d1d7ed; }
+#patient-testimonial .pat-test-title{font:600 28px/30px Lato,sans-serif;color:#000;letter-spacing:3px;text-align:center;text-transform:uppercase;padding:0 0 20px}
+#patient-testimonials li{text-align: center;width: 100%; padding: 0 15%; }
+#patient-testimonials .comments{ min-height: 85px; font:300 18px/28px Lato,sans-serif; text-align: center;  padding: 0 0 15px; }
+#patient-testimonials .patient-name{font:500 16px/28px Lato,sans-serif; text-align: center; }
+#patient-testimonials-Tabs{position: relative;	clear: both; width: 85px;margin: 0px auto;}
+#patient-testimonials-Tabs li {display: inline-block;}
+#patient-testimonials-Tabs li a{display: block; position: relative; background: url(/images/patient-stories-bullet.png) 0 0 no-repeat; width: 12px; height:12px; margin: 25px 2px 0;}
+#patient-testimonials-Tabs li.patient-say_here a{background: url(/images/patient-stories-bullet.png) -16px 0 no-repeat;}
+.pat-review-links{clear: both; padding: 20px 0 10px 0; text-align: center;}
+.pat-review-links li{display: inline-block;}
+.pat-review-links li a{padding: 12px 35px; background: #d1d7ed; color: #000; display: block; font:500 15px/25px Lato,sans-serif; text-transform: uppercase; border-radius: 12px;}
+
+
+#pat-rsrc{padding:55px 0 60px;background:#000}
+.pat-rsrc-title{font:600 28px/26px Lato,sans-serif;text-align:center;color:#fff;text-transform:uppercase;letter-spacing:3px;padding:0 0 50px}
+#pat-rsrc ul li a{color:#fff;font:400 17px/24px Lato,sans-serif;text-align:center;display:block;padding:10px 0 15px;border-right:1px solid #454545}
+#pat-rsrc ul li a:hover{color:#97a1c8}
+#pat-rsrc ul li a:before{position:relative;margin:10px auto;width:65px;height:45px;content:'';display:block;background:url(/images/patient-resources.png) no-repeat;transition:.2s all linear}
+#pat-rsrc ul li:nth-child(1){border-left:1px solid #454545}
+#pat-rsrc ul li:nth-child(1) a:before{background-position:14px -7px}
+#pat-rsrc ul li:nth-child(1) a:hover:before{background-position:14px -98px}
+#pat-rsrc ul li:nth-child(2) a:before{background-position:-214px -8px}
+#pat-rsrc ul li:nth-child(2) a:hover:before{background-position:-214px -99px}
+#pat-rsrc ul li:nth-child(3) a:before{background-position:-458px -4px}
+#pat-rsrc ul li:nth-child(3) a:hover:before{background-position:-458px -95px}
+#pat-rsrc ul li:nth-child(4) a:before{background-position:-687px -9px}
+#pat-rsrc ul li:nth-child(4) a:hover:before{background-position:-687px -100px}
+#pat-rsrc ul li:nth-child(5) a:before{background-position:-926px -11px}
+#pat-rsrc ul li:nth-child(5) a:hover:before{background-position:-926px -102px}
+#overview{padding:55px 0 0;background:#f3f3f3 url(/images/overview-image-new.jpg) bottom center no-repeat;min-height:590px}
+.overview-title{color:#000;font:600 28px/30px Lato,sans-serif;text-transform:uppercase;letter-spacing:3px;text-align:center;padding:0 0 35px}
+.overview-left{padding:35px 0 0}
+.overview-left ul li a{text-align:right;display:block;padding:20px 70px 20px 0;font:600 15px/25px Lato,sans-serif;background:url(/images/overview-sprite.png) no-repeat;margin:0 0 15px;color:#1d1d1b;cursor:default}
+.overview-left ul li:nth-child(1) a{background-position:right 2px}
+.overview-left ul li:nth-child(2) a{background-position:right -74px}
+.overview-left ul li:nth-child(3) a{background-position:right -147px}
+.overview-left ul li:nth-child(4) a{background-position:right -234px}
+.overview-cent{width:30%}
+.overview-right{padding:35px 0 0}
+.overview-right ul li a{display:block;padding:20px 0 20px 70px;font:600 15px/25px Lato,sans-serif;background:url(/images/overview-sprite.png) no-repeat;margin:0 0 15px;color:#1d1d1b;cursor:default}
+.overview-right ul li:nth-child(1) a{background-position:left -310px}
+.overview-right ul li:nth-child(2) a{background-position:left -386px}
+.overview-right ul li:nth-child(3) a{background-position:left -462px}
+.overview-right ul li:nth-child(4) a{background-position:left -549px}
+
+
+#Sidebar{width:300px;padding:5px 0 20px}
+.social-logo{width:300px;text-align:center}
+.social-logo ul{font-size:0}
+.social-logo li{display:inline-block;vertical-align:top;width:35px;height:30px;font-size:20px}
+.social-logo li a{width:100%;height:100%;display:block}
+
+@media screen and (max-width : 1170px) {
+
+.surgical-trtmt-blks li .trmnt-pic a{margin:0 20px 0 0}
+.surgical-trtmt-blks li .trmnt-txt{width:48%}
+.surgical-trtmt-blks li .trmnt-txt p{min-height:190px}
+.overview-cent{width:18%}
+
+
+}
+@media screen and (max-width : 979px) {
+
+.banner-content .banner-head{font:600 28px/34px Lato,sans-serif}
+.banner-content h1 a{font:500 24px/28px Lato,sans-serif}
+.surgical-trtmt-blks li .trmnt-pic a{width:305px;height:165px;background-size:100%!important}
+.surgical-trtmt-blks li .trmnt-txt{width:57%}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-txt-title{font:600 35px/35px Lato,sans-serif}
+.surgical-trtmt-blks li .trmnt-txt p{min-height:210px}
+.overview-left ul li a,.overview-right ul li a{font:600 11px/25px Lato,sans-serif}
+.service-description-s{padding:12px 10px 20px}
+#patient-testimonials li{padding: 0 7%; }
+    #patient-testimonials .comments{min-height: 100px;}
+#overview{background-size:38%}
+.service-image-s{display:block;width:55%;margin:0 auto}
+.service-description-s{width:97%}
+.serv-blks li p a{padding: 182px 40px 10px !important;}
+    .menu li{font-size: 12px;}
+    .menu li a{text-transform: capitalize;}
+}
+@media screen and (max-width : 767px) {
+
+.surgical-trtmt-blks li .trmnt-pic a{width:248px}
+.surgical-trtmt-blks li .trmnt-txt{width:55%}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-txt-title{font:600 30px/35px Lato,sans-serif}
+.surgical-trtmt-blks li .trmnt-txt p{min-height:240px}
+.overview-cent{width:2%}
+#patient-testimonials li{padding: 0 3%;}
+    #pat-rsrc ul li a{padding: 10px 0px 15px !important;}
+    .serv-intro h1{font-size: 29px;line-height: 1.4;}
+}
+@media screen and (max-width : 640px) {
+    
+    
+    
+.banner5 .banner-content p {
+    margin: 5px 2px 5px 2px;
+    font-size: 10px;
+    line-height: 14px !important;
+}
+    
+.banner5 .banner-content h2 {
+    margin: 5px 5px 5px 5px;
+    font-size: 14px!important;
+}    
+    
+    .banner-content {
+    top: 20px !important;
+}
+
+ 
+    
+    
+    
+
+#Banner-Container ul li{background-size:cover!important}
+.banner-content .banner-head{font:600 17px/25px Lato,sans-serif;padding:0 0 10px}
+.banner-content h2 a{font:500 15px/20px Lato,sans-serif}
+#Banner-Container #Banner{height:212px}
+.banner-content{top:70px}
+#services{padding:30px 0}
+#services .serv-blks{text-align:center}
+#services .table-cell{display:inline-block;width:29%;margin:2px}
+#our-team{padding:25px 0}
+#surgical-trtmt{padding:30px 0;margin:25px 0 0}
+.surgical-trtmt-blks li .trmnt-pic a{margin:0 auto;float:none;display:block;width:305px}
+.surgical-trtmt-blks li .trmnt-txt{width:95%;margin:0 auto;float:none}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-txt-title{margin:15px 0}
+.surgical-trtmt-blks li .trmnt-txt p{min-height:200px}
+#overview{padding:25px 0 0;background:#f3f3f3}
+.overview-title{padding:0}
+#overview .table-cell{display:block;width:312px;margin:0 auto}
+.overview-left ul li a{text-align:left;padding:20px 0 20px 70px}
+.overview-left,.overview-right{padding:0}
+.overview-left ul li:nth-child(1) a{background-position:left 2px}
+.overview-left ul li:nth-child(2) a{background-position:left -74px}
+.overview-left ul li:nth-child(3) a{background-position:left -147px}
+.overview-left ul li:nth-child(4) a{background-position:left -234px}
+.overview-left ul li a,.overview-right ul li a{margin:0 0 5px}
+
+#pat-rsrc{padding:20px 0}
+
+#services .nbs-flexisel-inner{width:480px}
+#services .table-cell{width:236px!important}
+#services .nbs-flexisel-nav-left::before,#services .nbs-flexisel-nav-right::before{color:#fff}
+#services .table-cell{width:32%;margin:1px}
+.serv-blks li p a{font:600 13px/21px Lato,sans-serif}
+.surgical-trtmt-blks li .trmnt-txt .trmnt-txt-title{font:600 26px/35px Lato,sans-serif}
+.surgical-trtmt-blks li .trmnt-txt p{font:400 16px/22px Lato,sans-serif}
+.pat-rsrc-title{font:600 24px/26px Lato,sans-serif;padding:0 0 20px}
+#pat-rsrc .table-div{text-align:center}
+#pat-rsrc .table-cell{display:inline-block;width:32%}
+    #patient-testimonials .comments{font: 300 16px/23px Lato,sans-serif;}
+    .pat-review-links li a{padding:6px 13px; font: 500 13px/21px Lato,sans-serif;}
+#patient-testimonial .pat-test-title {font: 600 24px/27px Lato,sans-serif;}
+#services .nbs-flexisel-inner{width:234px}
+#services .table-cell{width:232px!important}
+#prac-loc{min-height:430px}
+
+}
+
+
+
