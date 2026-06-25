@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Warning Signs You Should Never Ignore After Cosmetic Surgery";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

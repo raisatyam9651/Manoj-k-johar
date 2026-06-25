@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Complete Plastic Surgery Glossary: Terms Every Patient Should Know";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

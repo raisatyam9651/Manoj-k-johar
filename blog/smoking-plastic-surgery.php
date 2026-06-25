@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Smoking and Plastic Surgery: Why You Must Quit Before Surgery";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

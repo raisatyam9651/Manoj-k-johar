@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Red Flags to Watch for When Choosing a Cosmetic Clinic";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

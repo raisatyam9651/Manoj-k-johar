@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "What Is Revision Plastic Surgery and When Is It Needed?";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

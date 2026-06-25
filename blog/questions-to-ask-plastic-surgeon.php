@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "15 Questions to Ask Before Choosing a Plastic Surgeon";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

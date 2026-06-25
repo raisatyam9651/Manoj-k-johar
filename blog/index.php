@@ -4,7 +4,7 @@
 	$pageRelatedJsFiles = array(
 		JS_PATH."functions.js",
 	);
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Blog";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 

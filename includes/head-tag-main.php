@@ -5,9 +5,22 @@
 <meta name="google-site-verification" content="9zlK5QmnIwRgd9iqRQtFBollzQDD6_RE6CgY66jFP5o" />
  <!-- meta keywords starts -->
  <?php if(!isset($pageTitle)) $pageTitle = isset($pageHeading) ? $pageHeading." | ".$copyRightText : 'Plastic & Reconstructive Surgeon Noida | Dr Manoj Johar'; ?>
+ <?php if(!isset($pageDescription)) $pageDescription = 'Dr. Manoj K Johar is one of the Best Plastic Surgeon in Noida, Specialist in Plastic Surgery. He has 15+ years of experience as a plastic surgeon.'; ?>
+ <?php if(!isset($pagekeywords)) $pagekeywords = 'best plastic surgeon in Noida, plastic surgeon in Noida, plastic surgery in Noida'; ?>
+ <?php if(!isset($ogtitle)) $ogtitle = $pageTitle; ?>
+ <?php if(!isset($ogdescription)) $ogdescription = $pageDescription; ?>
+ <?php if(!isset($ogurl)) $ogurl = 'https://www.theaesthetic.in/'; ?>
+ <?php if(!isset($ogsitename)) $ogsitename = "Dr. Johar's Plastic Surgery Group"; ?>
+ <?php if(!isset($ogimageurl)) $ogimageurl = 'https://www.theaesthetic.in/images/drmanojjhor-image-og.jpg'; ?>
+ <?php if(!isset($ogimagesecureurl)) $ogimagesecureurl = $ogimageurl; ?>
+ <?php if(!isset($twtitle)) $twtitle = $pageTitle; ?>
+ <?php if(!isset($twdescription)) $twdescription = $pageDescription; ?>
+ <?php if(!isset($twimageurl)) $twimageurl = $ogimageurl; ?>
  <title><?php echo $pageTitle; ?></title>
 <meta name="description" content="<?php echo $pageDescription; ?>"/>
 <meta name="keywords" content="<?php echo $pagekeywords; ?>"/>
+<meta name="author" content="Dr. Manoj K Johar" />
+<meta name="publisher" content="Dr. Johar's Plastic Surgery Group" />
 <meta name="robots" content="index, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <!-- <link rel="canonical" href="<?php echo $canonicalurl; ?>" /> -->
 <meta property="og:locale" content="en_US" />

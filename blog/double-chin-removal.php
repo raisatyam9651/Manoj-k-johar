@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Double Chin Removal Options: Surgical vs Non-Surgical";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "How Digital Imaging Helps Plan Cosmetic Surgery";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

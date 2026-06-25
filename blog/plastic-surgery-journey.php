@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "The Complete Plastic Surgery Journey: From Consultation to Recovery";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

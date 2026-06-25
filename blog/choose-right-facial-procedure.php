@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "How to Choose the Right Cosmetic Procedure for Your Face";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

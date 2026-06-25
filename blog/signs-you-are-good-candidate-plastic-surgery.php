@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "10 Signs You're a Good Candidate for Plastic Surgery";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>

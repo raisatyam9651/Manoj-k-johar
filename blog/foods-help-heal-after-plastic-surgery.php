@@ -2,7 +2,7 @@
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
 	$pageRelatedJsFiles = array(JS_PATH."functions.js");
-	$pageRelatedCssFiles = array();
+	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "What Foods Help Heal Faster After Plastic Surgery?";
 	$metaInfo = $pageHeading." | ".$copyRightText;
 ?>
