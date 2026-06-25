@@ -1,7 +1,7 @@
 <?php
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
-	$pageRelatedJsFiles = array(JS_PATH."functions.js");
+	$pageRelatedJsFiles = array(JS_PATH."responsiveslides.js", JS_PATH."jquery.flexisel.js", JS_PATH."functions.js");
 	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Common Questions Patients Ask Before Cosmetic Surgery";
 	$metaInfo = $pageHeading." | ".$copyRightText;

@@ -1,7 +1,7 @@
 <?php
 	include '../common/common.php';
 	$pageHasCMSForm = 'false';
-	$pageRelatedJsFiles = array(JS_PATH."functions.js");
+	$pageRelatedJsFiles = array(JS_PATH."responsiveslides.js", JS_PATH."jquery.flexisel.js", JS_PATH."functions.js");
 	$pageRelatedCssFiles = array("inner.css");
 	$pageHeading = "Non-Surgical vs Surgical Facial Rejuvenation";
 	$metaInfo = $pageHeading." | ".$copyRightText;
